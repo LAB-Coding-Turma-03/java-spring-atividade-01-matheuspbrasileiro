@@ -12,8 +12,10 @@ public class HelloWorldController {
 	@GetMapping("hello")
 	public ResponseEntity<String> helloWorld() {
 		
+
 		//Digite -> Hello world !
-		return ResponseEntity.ok("Digite Aqui");
+		return ResponseEntity.ok("Hello World Aula de LabCoding");
 	}
 	
 }
+//http://localhost:8080/atividades/hello
